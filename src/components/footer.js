@@ -71,17 +71,17 @@ const Footer = () => (
           <p>© 2021 Company, Inc. All rights reserved.</p>
           <ul class="list-unstyled d-flex">
             <li class="ms-3">
-              <a class="link-dark" href="#twitter" text="Twitter">
+              <a class="link-dark" href="#twitter" text="Twitter" aria-label="Twitter">
                 <FaTwitter />
               </a>
             </li>
             <li class="ms-3">
-              <a class="link-dark" href="#linkedin" text="LinkedIn">
+              <a class="link-dark" href="#linkedin" text="LinkedIn" aria-label="LinkedIn">
                 <FaLinkedin />
               </a>
             </li>
             <li class="ms-3">
-              <a class="link-dark" href="#facebook" text="Facebook">
+              <a class="link-dark" href="#facebook" text="Facebook" aria-label="Faebook">
                 <FaFacebook />
               </a>
             </li>
