@@ -14,13 +14,13 @@ const Header = () => (
   <>
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <Image src={TestLogo} height={50} alt="Test Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features" variant="light">Features</Nav.Link>
+            <Nav.Link href="/members" variant="light">Members</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -35,13 +35,7 @@ const Header = () => (
             </NavDropdown>
           </Nav>
           <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="light">Search</Button>
+            <Button variant="light">Register</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
