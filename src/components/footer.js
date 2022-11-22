@@ -16,7 +16,7 @@ const Footer = () => (
             <h5>Menu 1</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link p-0">
                   Page 1
                 </a>
               </li>
@@ -27,7 +27,7 @@ const Footer = () => (
             <h5>Menu 2</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link p-0">
                   Page 2
                 </a>
               </li>
@@ -38,7 +38,7 @@ const Footer = () => (
             <h5>Menu 3</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+                <a href="#" class="nav-link p-0">
                   Page 3
                 </a>
               </li>
